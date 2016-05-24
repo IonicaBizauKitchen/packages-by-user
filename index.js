@@ -1,10 +1,12 @@
 #!/usr/bin/env node
 
 const args = process.argv.slice(2)
-const user = args[0]
+var user = args[0]
+var names
+var packages = []
 
 if (!user) {
-  console.error(`Usage: packages-by <username>`)
+  console.error(`Usage: packages by <username>`)
   process.exit()
 } else if (user === 'by') {
   user = args[1]
@@ -20,9 +22,6 @@ const url = require('url').format({
 })
 
 console.error(url)
-
-var names
-var packages = []
 
 got(url, {json: true})
   .then(response => {

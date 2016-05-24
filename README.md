@@ -1,4 +1,4 @@
-# packages-by
+# packages-by-user
 
 Compile an extensive JSON array of a given user's npm packages
 
@@ -15,13 +15,13 @@ array contains all the metadata provided by npm's skimdb registry.
 
 
 ```sh
-npm i -g packages-by
+npm i -g packages-by-user
 packages by zeke > zeke.json
 ```
 
 ## Dependencies
 
-- [all-the-modules](git+https://github.com/zeke/packages-by.git):
+- [all-the-modules](git+https://github.com/zeke/packages-by-user.git):
 - [got](https://github.com/sindresorhus/got): Simplified HTTP requests
 
 ## Dev Dependencies
