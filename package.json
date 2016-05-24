@@ -1,0 +1,38 @@
+{
+  "name": "packages-by",
+  "version": "1.0.0",
+  "description": "Compile an extensive JSON array of a given user's npm packages",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "packages": "index.js",
+    "packages-by": "index.js"
+  },
+  "dependencies": {
+    "all-the-modules": "0.0.1",
+    "got": "^6.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeke/packages-by.git"
+  },
+  "keywords": [
+    "npm",
+    "registry",
+    "author",
+    "authorship",
+    "owner",
+    "modules",
+    "repertoire"
+  ],
+  "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeke/packages-by/issues"
+  },
+  "homepage": "https://github.com/zeke/packages-by#readme"
+}
