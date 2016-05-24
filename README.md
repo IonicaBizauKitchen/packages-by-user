@@ -2,7 +2,7 @@
 
 Compile an extensive JSON array of a given user's npm packages
 
-As []@tobiaslabs](https://github.com/tobiaslabs/npm-owned-modules) aptly noted:
+As [@tobiaslabs](https://github.com/tobiaslabs/npm-owned-modules) aptly noted:
 
 > Since npm doesn't publish any docs for interacting with their API, the best
 you can do is read through their website repo and try to reverse engineer it.
