@@ -9,7 +9,7 @@
     "packages-by-user": "index.js"
   },
   "dependencies": {
-    "all-the-modules": "0.0.1",
+    "all-the-packages": "^1.0.1",
     "got": "^6.3.0"
   },
   "devDependencies": {},
