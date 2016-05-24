@@ -1,6 +1,6 @@
 {
   "name": "packages-by-user",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Compile an extensive JSON array of a given user's npm packages",
   "main": "index.js",
   "preferGlobal": true,
